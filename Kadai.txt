@@ -1,0 +1,21 @@
+PS C:\Users\nozaki> cd C:\Development
+PS C:\Development> mkdir git_challenge
+    ディレクトリ: C:\Development
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        2023/11/09     13:34                git_challenge
+PS C:\Development> cd git_challenge
+PS C:\Development\git_challenge> git init
+Initialized empty Git repository in C:/Development/git_challenge/.git/
+PS C:\Development\git_challenge> git add hello_world.txt
+PS C:\Development\git_challenge> git commit -m "hello_world.txtを追加"
+[main (root-commit) 7723f40] hello_world.txtを追加
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+PS C:\Development\git_challenge> git add hello_world.txt
+PS C:\Development\git_challenge> git commit -m "日本語訳を追記"
+[main a1e87dd] 日本語訳を追記
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+PS C:\Development\git_challenge> git log --oneline
+a1e87dd (HEAD -> main) 日本語訳を追記
+7723f40 hello_world.txtを追加
